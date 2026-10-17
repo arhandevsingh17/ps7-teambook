@@ -49,7 +49,7 @@ Individual employee:
 
 ### Employee Directory
 
-![TeamBook Employee Directory](/screenshots/employees.png)
+![TeamBook Employee Directory](./screenshots/employees.png)
 
 ## Run Locally
 
