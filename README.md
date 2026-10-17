@@ -1,16 +1,72 @@
-# React + Vite
+# TeamBook — Employee Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TeamBook is a simple employee directory where users can search for employees and view their profiles. It uses React and the DummyJSON API to display employee information.
 
-Currently, two official plugins are available:
+## Project Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Problem Statement:** PS7
+- **Project Name:** TeamBook
+- **Frontend:** React.js, Vite
+- **Routing:** React Router
+- **API:** DummyJSON Users API
+- **Styling:** CSS
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View a list of employees.
+- Search employees by their names.
+- View individual employee profiles.
+- Display employee contact and company information.
+- Navigate between pages using React Router.
+- Show loading and error messages.
+- Display a 404 page for unknown routes.
+- Responsive layout for smaller screens.
 
-## Expanding the ESLint configuration
+## API Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Employee list:
+
+`https://dummyjson.com/users?limit=30`
+
+Individual employee:
+
+`https://dummyjson.com/users/:id`
+
+## Routes
+
+| Route | Description |
+|---|---|
+| `/` | Home page |
+| `/employees` | Employee directory and search |
+| `/employees/:id` | Individual employee profile |
+| `*` | Page not found |
+
+## Screenshots
+
+### Home Page
+
+![TeamBook Home Page](./screenshots/home.png)
+
+### Employee Directory
+
+![TeamBook Employee Directory](/screenshots/employees.png)
+
+## Run Locally
+
+1. Clone the repository.
+2. Open the project folder in the terminal.
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+## Live Demo
+
+Deployment link will be added after the website is published.
+
+## Author
+
+Arhan Dev Singh
