@@ -65,7 +65,7 @@ Individual employee:
 
 ## Live Demo
 
-Deployment link will be added after the website is published.
+[TeamBook Live Demo](https://ps7-teambook-xi.vercel.app/)
 
 ## Author
 
